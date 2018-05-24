@@ -10,12 +10,5 @@ client.on('message', message => {
         message.reply('pong');
       }
 });
-
-
-وضع الكودات 
-
-
-
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
